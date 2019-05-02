@@ -1,0 +1,30 @@
+= Actualización de DLLs de HL7
+Andrés Lara Maldonado <alara@mediconet.com.mx>
+:doctype: book
+:reproducible:
+//:source-highlighter: coderay
+
+:source-highlighter: rouge
+:listing-caption: Listing
+// Uncomment next line to set page size (default is A4)
+//:pdf-page-size: Letter
+
+
+== Introducción
+
+El presente manual está diseñado exclusivamente para las unidades IMSS donde ya se tengan instalado los servicioes de HL7.
+En investigación sobre la ausencia de LabResult existosos se detectó que el proceso de consulta de folios pendientes por enviar era muy lento, lo cuál generaba un TimeOut que hacia que simplemente no se enviaran mensajes, es por eso que se decide mejora esa consulta así algunas correción en el cuerpo de los mensajes.
+
+.Create a basic PDF document using Prawn
+[source,ruby]
+----
+require 'prawn'
+
+Prawn::Document.generate 'example.pdf' do
+  text 'Hello, World!'
+end
+----
+
+== Conclusion
+
+That's all, folks!
